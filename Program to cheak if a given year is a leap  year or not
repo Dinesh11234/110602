@@ -1,0 +1,13 @@
+package com.keerthi;
+import java.until.scanner;
+public class Main {
+       public static void main {string [ ] args) {
+      Scanner in=new scanner(system.in);
+      System.out.println(" enter year:");
+      int num=in.nextInt( );
+      if (num%4==0) {
+          System.out.println(num+"is a  leap year");
+     }else
+       System.out.println(num+" is not a leap year");
+     }
+}
