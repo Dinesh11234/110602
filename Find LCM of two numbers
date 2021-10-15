@@ -1,0 +1,19 @@
+package com.keerthi;
+import java.until.scanner;
+public class Main {
+       public static void main {string [ ] args) {
+      Scanner in=new Scanner(system.in);
+  System.out.println("enter  first number:");
+   int num=in.nextInt( );
+   System.out.println("enter second number: ");
+  int num1=in.nextInt( );
+  int gcd=1;
+  for(int I=1;I<=num1;I++){
+      if (num %i ==0 && num1 %i==0) {
+    gcd=I;
+   }
+}
+        gcd=num*num1/gcd;
+        System.out .printlnn("LCM  of two numbers:/"+gcd);
+   }
+}
