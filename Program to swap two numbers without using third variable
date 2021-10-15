@@ -1,0 +1,16 @@
+Package.com.keerthi;
+Import java.until.scanner;
+Public class Main {
+       Public static void main {string [ ] args) {
+      Scanner in=new scanner(system.in);
+   System.iut.println("enter  first number:");
+   Int num=in.nextInt( );
+   System.out.println("enter second number: ");
+    Int num1=in.nextInt( );
+    System.out.println("before swapping: "+num+" "+num1);
+   num=num+num1;
+   num1=num-num1;
+   num=num-num1;
+   System.out.println("after swapping: "+num+" "+num1);
+      }
+  }
