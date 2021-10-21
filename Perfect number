@@ -8,12 +8,15 @@ public class Main {
       Scanner in=new Scanner(System.in);
         System.out.println("enter a number: ");
       int num=in.nextInt();
-      int sum=0;
+      int sum=0,p=0;
      for(int i=1;i<num;i++){
          sum+=i;
          if(sum==num){
-             System.out.println(sum+" is a perfect number.");
+             p=1;
+             System.out.println(num+" is a perfect number.");
          }
      }
+       if(p==0)
+         System.out.println(num+" is not a perfect number.");
     }
 }
